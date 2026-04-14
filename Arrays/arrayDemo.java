@@ -100,7 +100,7 @@ class arrayDemo {
                 case 2:
                     System.out.print("Enter element to delete from array: ");
                     int deleteData = scanner.nextInt();
-                    // Passing 0 for data as your delete method mainly uses the index
+                    
                     arr.delete(deleteData); 
                     break;
 
